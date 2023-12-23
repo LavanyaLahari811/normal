@@ -1,30 +1,32 @@
-*{
-    background-color:  #FBEBEB
+* {
+  background-color: #fbebeb;
 }
-.items{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-#cat{
-    width: 400px;
-    height: 400px;
+#cat {
+  width: 400px;
+  height: 400px;
 }
-p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:35px;
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
 }
-.btns{
-    display: flex;
-    justify-content: space-around;
+.btns {
+  display: flex;
+  justify-content: space-around;
 }
-button{
-    width: 50px;
-    height: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-
+button {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-button:hover{
-    background-color: aqua;
+#no {
+  position: relative;
+}
+button:hover {
+  background-color: aqua;
 }
