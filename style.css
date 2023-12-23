@@ -1,5 +1,11 @@
-* {
+#pg1 {
   background-color: #fbebeb;
+}
+#pg2{
+    background-color: white;
+}
+#pg3{
+  background-color: #f6faf5;
 }
 .items {
   display: flex;
@@ -29,4 +35,14 @@ button {
 }
 button:hover {
   background-color: aqua;
+}
+#clothes{
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+}
+#gng{
+  margin-top: 200px;
+  width: 350px;
+  height: 350px;
 }

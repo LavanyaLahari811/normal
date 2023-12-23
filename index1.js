@@ -1,11 +1,9 @@
-const yesButton = document.querySelector("#yes");
+const yesShop = document.querySelector("#yesShop");
 const noButton = document.querySelector("#no");
 
-
-yesButton.addEventListener("click", () => {
-  window.location.href='./index2.html';
+yesShop.addEventListener("click", () => {
+  window.location.href = "./index3.html";
 });
-
 
 noButton.addEventListener("click", () => {
   var randomX = Math.floor(Math.random() * 100) - 50;
